@@ -11,4 +11,6 @@ document.getElementById("searchForm")?.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const text = document.getElementById("searchText") as HTMLInputElement;
+
+  text.value = "";
 });
