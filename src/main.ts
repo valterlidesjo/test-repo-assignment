@@ -2,7 +2,12 @@ import axios from "axios"
 
 
 const movieSearch = () => {
-    const response = axios.get();
+    axios.get("/../MockData/MockMovies.json")
+    .then((response => {
+        console.log(response.data);
+    }))
     
-}
+    
+};
+movieSearch();
 
