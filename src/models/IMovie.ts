@@ -3,6 +3,6 @@ export interface IMovie {
     desc: string; 
     imgURL: string;
     director: string;
-    releaseYear: number;
+    releaseYear: string;
     mainCharacter: string; 
 }
